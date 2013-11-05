@@ -10,15 +10,14 @@ mysql_select_db($database, $con);
 
 $locationID = $_POST["lid"];
 $email = mysql_real_escape_string($_POST["email"]);
-$comment = mysql_real_escape_string($_POST["comment"]);
 
-$sql = "INSERT INTO comments (location_id, email, comment) ";
-$sql .= "VALUES ($locationID, '$email', '$comment')";
+$sql = "INSERT INTO email(location_id, email) ";
+$sql .= "VALUES ($locationID, '$email')";
 
 if (!mysql_query($sql, $con)) {
 	die('Error: ' . mysql_error());
 } else {
-	echo "Comment added";
+	echo "Email added";
 }
 
 mysql_close($con);

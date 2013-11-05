@@ -101,9 +101,11 @@
             <h2><b>TIP: DON'T WAFFLE</b><br>Video entries should be clear, concise and focused on getting your idea across. Remember, it's all about the idea! Gimmicks and distractions don't help.</h2>
         </div>
         <div class="swiper-slide green">
+            <!--
             <h4 class="breadcrumb">Get started!</h4>
             <h1>Stay updated!</h1>
             <div class="splash"><img src="images/submit.png" alt=""></div>
+-->
             <div class="form" id="landmark-1" data-landmark-id="1">
                 <form>
                     <input type="email" name="email">
@@ -123,7 +125,8 @@ var mySwiper = new Swiper('.swiper-container',{
     resistance: false,
     preventLinks: false,
     grabCursor: true,
-    keyboardControl: true
+    keyboardControl: true,
+    simulateTouch: false
 })
 var swiperNested1 = new Swiper('.swiper-nested-1',{
     mode: 'vertical',
