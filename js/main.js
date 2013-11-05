@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
         var postData = $(this).serialize();
         $.ajax({
             type: 'POST',
-            data: postData+'&amp;lid='+landmarkID,
+            data: postData+'&lid='+landmarkID,
             url: 'http://zinc.ie/apps/sea/_save.php',
             /*
             success: function(data){

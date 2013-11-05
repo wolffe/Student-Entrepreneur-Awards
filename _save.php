@@ -19,6 +19,4 @@ if (!mysql_query($sql, $con)) {
 } else {
 	echo "Email added";
 }
-
-mysql_close($con);
 ?>
