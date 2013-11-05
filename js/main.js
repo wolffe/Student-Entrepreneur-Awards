@@ -17,8 +17,8 @@ jQuery(document).ready(function($){
             }
             */
         });
-        return false;
+
         window.open('http://www.zinc.ie/ei/how-to-enter/', '_blank');
-        //navigator.app.loadUrl('http://www.google.com', { openExternal:true } );
+        return false;
     });
 });

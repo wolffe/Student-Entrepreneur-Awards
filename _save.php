@@ -14,7 +14,7 @@ $email = mysql_real_escape_string($_POST["email"]);
 $sql = "INSERT INTO email(location_id, email) ";
 $sql .= "VALUES ($locationID, '$email')";
 
-if (!mysql_query($sql, $con)) {
+if(!mysql_query($sql, $con)) {
 	die('Error: ' . mysql_error());
 } else {
 	echo "Email added";
