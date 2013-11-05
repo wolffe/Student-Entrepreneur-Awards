@@ -17,7 +17,7 @@ jQuery(document).ready(function($){
             }
             */
         });
-    
+        window.open('http://www.zinc.ie/', '_system');
         return false;
     });
 });
