@@ -14,7 +14,6 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
-<link href="css/idangerous.swiper.scrollbar.css" rel="stylesheet" type="text/css" />
 <script src="js/idangerous.swiper.js" type="text/javascript"></script>
 <script src="js/main.js" type="text/javascript"></script>
 </head>
@@ -101,24 +100,21 @@
             </div>
         </div>
     </div>
-    <div class="pagination-parent"></div>
+    <div class="pagination"></div>
 </div>
 
 <script>
 var mySwiper = new Swiper('.swiper-container',{
-    mode: 'vertical',
-    pagination: '.pagination-parent',
+    mode: 'horizontal',
+    pagination: '.pagination',
     paginationClickable: true,
     DOMAnimation: false,
     resistance: false,
-    preventLinks: false,
     grabCursor: true,
     keyboardControl: true,
 //    freeMode: true,
 //    freeModeFluid: true,
-    calculateHeight: false,
-    autoResize: false,
-    loopAdditionalSlides: 1
+    calculateHeight: true
 })
 </script>
 </body>
