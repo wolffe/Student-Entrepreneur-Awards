@@ -68,30 +68,19 @@
         </div>
 
         <div class="swiper-slide red">
-            <div class="swiper-container swiper-nested-1">
-                <div class="pagination pagination-nested-1"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <h4 class="breadcrumb">Previous winners</h4>
-                        <h1 class="winner">
-                            <img src="http://www.zinc.ie/ei/wp-content/uploads/2013/10/MATech-2013.1-325x225.jpg" alt="">
-                            <span>2013 - ITC</span>
-                        </h1>
-                    </div>
-                    <div class="swiper-slide">
-                        <h1 class="winner">
-                            <img src="http://www.zinc.ie/ei/wp-content/uploads/2013/10/DRS-2012.3-325x225.jpg" alt="">
-                            <span>2012 - NUIG</span>
-                        </h1>
-                    </div>
-                    <div class="swiper-slide">
-                        <h1 class="winner">
-                            <img src="http://www.zinc.ie/ei/wp-content/uploads/2013/10/Prometheus-2011.1-325x225.jpg" alt="">
-                            <span>2011 - DCU</span>
-                        </h1>
-                    </div>
-                </div>
-            </div>
+            <h4 class="breadcrumb">Previous winners</h4>
+            <h1 class="winner">
+                <img src="http://www.zinc.ie/ei/wp-content/uploads/2013/10/MATech-2013.1-325x225.jpg" alt="">
+                <span>2013 - ITC</span>
+            </h1>
+            <h1 class="winner">
+                <img src="http://www.zinc.ie/ei/wp-content/uploads/2013/10/DRS-2012.3-325x225.jpg" alt="">
+                <span>2012 - NUIG</span>
+            </h1>
+            <h1 class="winner">
+                <img src="http://www.zinc.ie/ei/wp-content/uploads/2013/10/Prometheus-2011.1-325x225.jpg" alt="">
+                <span>2011 - DCU</span>
+            </h1>
         </div>
 
         <div class="swiper-slide green">
@@ -101,11 +90,9 @@
             <h2><b>TIP: DON'T WAFFLE</b><br>Video entries should be clear, concise and focused on getting your idea across. Remember, it's all about the idea! Gimmicks and distractions don't help.</h2>
         </div>
         <div class="swiper-slide green">
-            <!--
             <h4 class="breadcrumb">Get started!</h4>
             <h1>Stay updated!</h1>
             <div class="splash"><img src="images/submit.png" alt=""></div>
--->
             <div class="form" id="landmark-1" data-landmark-id="1">
                 <form>
                     <input type="email" name="email">
@@ -119,6 +106,7 @@
 
 <script>
 var mySwiper = new Swiper('.swiper-container',{
+    mode: 'vertical',
     pagination: '.pagination-parent',
     paginationClickable: true,
     DOMAnimation: false,
@@ -126,14 +114,11 @@ var mySwiper = new Swiper('.swiper-container',{
     preventLinks: false,
     grabCursor: true,
     keyboardControl: true,
-    simulateTouch: false
-})
-var swiperNested1 = new Swiper('.swiper-nested-1',{
-    mode: 'vertical',
-    pagination: '.pagination-nested-1',
-    paginationClickable: false,
-    slidesPerView: 2,
-    keyboardControl: true
+//    freeMode: true,
+//    freeModeFluid: true,
+    calculateHeight: false,
+    autoResize: false,
+    loopAdditionalSlides: 1
 })
 </script>
 </body>
