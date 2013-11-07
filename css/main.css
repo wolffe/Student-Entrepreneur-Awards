@@ -4,19 +4,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-
-    /*
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-
-	-moz-font-feature-settings: "liga=1, dlig=1";
-	-ms-font-feature-settings: "liga", "dlig";
-	-webkit-font-feature-settings: "liga", "dlig";
-	-o-font-feature-settings: "liga", "dlig";
-	font-feature-settings: "liga", "dlig";
-    */
 }
-
 
 body {
     background-color: #333333;
@@ -64,7 +52,6 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
     margin: 8px 16px;
 }
 
-
 .form {
     margin: 8px 16px;
 }
@@ -75,7 +62,7 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
     font-size: 16px;
     padding: 16px 8px;
     display: block;
-    width: 100%;
+    width: 98%;
 }
 .form input[type="submit"] {
     background-color: #EC2C23;
@@ -87,7 +74,7 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
     border: 0;
     color: #ffffff;
     display: block;
-    width: 100%;
+    width: 98%;
     white-space: nowrap;
 }
 
@@ -113,24 +100,15 @@ h2 {
     line-height: 22px;
 }
 
-
 .winner { margin: 16px; }
 .winner img { width: 100%; padding: 8px 0; height: auto; }
 .winner span { position: relative; display: block; width: auto; background-color: #EC2C23; white-space: nowrap; padding: 4px 8px; margin-top: -70px; }
 
-
 html { height: 100%; }
-.swiper-container { width: 100%; _height: 100%; }
+.swiper-container { width: 100%; }
 .swiper-slide { width: 100%; }
 
-.pagination{position:absolute;z-index:20;left:10px;bottom:10px;}.swiper-pagination-switch{display:inline-block;width:8px;height:8px;border-radius:8px;background:#222;margin-right:5px;opacity:0.8;border:1px solid #fff;cursor:pointer;}.swiper-visible-switch{background:#aaa;}.swiper-active-switch{background:#fff;}
-
-/*
-@media screen and (max-height: 520px) {
-    .digit { font-size: 128px; line-height: 128px; }
-    h1 { font-size: 16px; }
-    h2 { font-size: 12px; line-height: 16px; }
-    .splash img { height: 90px; }
-    .breadcrumb { font-size: 8px; }
-}
-*/
+.pagination { position: absolute; z-index: 20; left: 10px; bottom: 10px; }
+.swiper-pagination-switch { display: inline-block; width: 8px; height: 8px; border-radius: 16px; background-color: #222222; margin-right: 5px; opacity: 0.8; border: 1px solid #ffffff; cursor: pointer; }
+.swiper-visible-switch { background-color: #aaaaaa; }
+.swiper-active-switch { background-color: #ffffff; }
