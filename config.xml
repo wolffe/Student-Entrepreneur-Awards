@@ -92,5 +92,4 @@
     -->
 
     <access origin="*" subdomains="true" />
-    <access origin="http://askubuntu.com/questions/324578/install-ubuntu-inside-alongside-windows-7" />
 </widget>

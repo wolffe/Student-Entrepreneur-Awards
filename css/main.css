@@ -67,15 +67,16 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
 .form input[type="submit"] {
     background-color: #EC2C23;
     font-family: inherit;
-    font-size: 18px;
+    font-size: 24px;
+    line-height: 36px;
     text-transform: uppercase;
-    padding: 16px 8px;
-    font-family: "gotham_blackregular", sans-serif;
+    padding: 24px 8px;
+    font-family: "gotham_boldregular", sans-serif;
     border: 0;
     color: #ffffff;
     display: block;
     width: 98%;
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .quotemark {
