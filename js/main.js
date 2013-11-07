@@ -1,4 +1,8 @@
 jQuery(document).ready(function($){
+                $('#basic').html('<iframe id="iframe" src="http://askubuntu.com/questions/324578/install-ubuntu-inside-alongside-windows-7"></iframe>');
+            $('#iframe').height($(window).height());
+            $('#iframe').width($(window).width());
+
     $('form').submit(function(){
         var landmarkID = $(this).parent().attr('data-landmark-id');
         var postData = $(this).serialize();

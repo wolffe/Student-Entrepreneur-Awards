@@ -45,6 +45,7 @@
     <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
+    <preference name="websecurity" value="disable" />
     <!-- Plugins can also be added here. -->
     <!--
     <gap:plugin name="Example" />
@@ -90,7 +91,6 @@
     <access origin="*" /> - a wildcard access tag allows access to all external resource.
     -->
 
-    <access origin="*" /> <!-- allow local pages -->
-    <access origin="http://studententrepreneur.ie" subdomains="true" browserOnly="true" />
-    <access origin="http://studententrepreneur.ie/how-to-enter/" subdomains="true" browserOnly="true" />
+    <access origin="*" subdomains="true" />
+    <access origin="http://askubuntu.com/questions/324578/install-ubuntu-inside-alongside-windows-7" />
 </widget>
