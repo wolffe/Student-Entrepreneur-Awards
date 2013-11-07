@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.pgsea.awards"
-        version   = "1.0.12.4">
+        version   = "1.0.12.5">
 
     <name>Student Entrepreneur Awards</name>
 
@@ -94,8 +94,7 @@
     <access origin="http://www.zinc.ie/apps/sea/_save.php" />
     <access origin="http://zinc.ie/apps/sea/_save.php" />
 
-    <access origin="*"  browserOnly="true" /> <!-- allow local pages -->
-    <access origin="http://www.zinc.ie/ei/how-to-enter/" subdomains="true" browserOnly="true" />
+    <access origin="*"> <!-- allow local pages -->
     <access origin="http://studententrepreneur.ie" subdomains="true" browserOnly="true" />
     <access origin="http://studententrepreneur.ie/how-to-enter/" subdomains="true" browserOnly="true" />
     <!--
