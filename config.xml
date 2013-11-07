@@ -94,7 +94,7 @@
     <access origin="http://www.zinc.ie/apps/sea/_save.php" />
     <access origin="http://zinc.ie/apps/sea/_save.php" />
 
-    <access origin="*"> <!-- allow local pages -->
+    <access origin="*" /> <!-- allow local pages -->
     <access origin="http://studententrepreneur.ie" subdomains="true" browserOnly="true" />
     <access origin="http://studententrepreneur.ie/how-to-enter/" subdomains="true" browserOnly="true" />
     <!--
