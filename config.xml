@@ -4,12 +4,12 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.pgsea.awards"
-        version   = "1.0.12.5">
+        version   = "1.0.12.6">
 
-    <name>Student Entrepreneur Awards</name>
+    <name>Entrepreneur</name>
 
     <description>
-        Student Entrepreneur Awards Web Application
+        The Student Entrepreneur Awards are looking for ideas that blow our minds! Ideas that one day could become a business. First prize is &euro;10,000!
     </description>
 
     <author href="http://zinc.ie" email="support@zinc.ie">
