@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.pgsea.awards"
-        version   = "1.0.13.1">
+        version   = "1.0.13.2">
 
     <name>Entrepreneur</name>
 
@@ -12,7 +12,7 @@
         The Student Entrepreneur Awards are looking for ideas that blow our minds! Ideas that one day could become a business. First prize is &euro;10,000!
     </description>
 
-    <author href="http://zinc.ie" email="support@zinc.ie">
+    <author href="http://zinc.ie" email="ciprian@zinc.ie">
         ZINC
     </author>
 
@@ -75,6 +75,21 @@
     <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
+
+    <!--
+    <gap:splash src="splash/ios/Default.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="splash/ios/Default@2x.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="splash/ios/Default_iphone5.png" gap:platform="ios" width="640" height="1136" />
+    <gap:splash src="splash/ios/Default-Landscape.png" gap:platform="ios" width="1024" height="768" />
+    <gap:splash src="splash/ios/Default-Portrait.png" gap:platform="ios" width="768" height="1004" />
+    -->
+    <gap:splash src="splash/ios/Default-568h.png" gap:platform="ios" width="320" height="568" />
+    <gap:splash src="splash/ios/Default-568@2x.png" gap:platform="ios" width="640" height="1136" />
+
+    <!--
+    <gap:splash src="splash/ios/Default-Landscape@2x.png" gap:platform="ios" width="2048" height="1496" />
+    <gap:splash src="splash/ios/Default-Portrait@2x.png" gap:platform="ios" width="1536" height="2008" />
+    -->
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
