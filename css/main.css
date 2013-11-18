@@ -4,17 +4,6 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    backface-visibility: hidden;
-    perspective: 1000;
 }
 
 body {
@@ -45,10 +34,10 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
 }
 
 .logo { background-color: #FFFFFF; }
-.logo img { width: 90%; height: auto; padding: 8px 0; }
+.logo img { width: 320px; padding: 8px 16px; }
 
 .splash { text-align: center; }
-.splash img { padding: 8px 16px; }
+.splash img { padding: 8px 0; }
 
 .breadcrumb {
     font-family: "gotham_bookregular", sans-serif;
