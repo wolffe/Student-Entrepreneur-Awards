@@ -44,11 +44,11 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
     color: #FFF100;
 }
 
-.logo { background-color: #FFFFFF; text-align: center; }
-.logo img { width: 90%; padding: 8px 0; }
+.logo { background-color: #FFFFFF; }
+.logo img { width: 90%; height: auto; padding: 8px 0; }
 
 .splash { text-align: center; }
-.splash img { padding: 8px 0; }
+.splash img { padding: 8px 16px; }
 
 .breadcrumb {
     font-family: "gotham_bookregular", sans-serif;
@@ -113,7 +113,7 @@ h2 {
 }
 
 .winner { margin: 16px; }
-.winner img { width: 100%; padding: 8px 0; height: auto; }
+.winner img { width: 325px; height: 200px; padding: 8px 0; }
 .winner span { position: relative; display: block; width: auto; background-color: #EC2C23; white-space: nowrap; padding: 4px 8px; margin-top: -70px; }
 
 html { height: 100%; }
