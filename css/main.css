@@ -6,6 +6,9 @@
 	box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
 body {
     background-color: #333333;
     font-family: "gotham_bookregular", sans-serif;
@@ -36,7 +39,7 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
 .logo { background-color: #FFFFFF; }
 .logo img { width: 320px; padding: 8px 16px; }
 
-.splash { text-align: center; }
+.splash { margin: 0 16px; }
 .splash img { width: 80%; max-width: 320px; padding: 8px 0; }
 
 .breadcrumb {
@@ -67,18 +70,19 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
 .form input[type="submit"] {
     background-color: #EC2C23;
     font-family: inherit;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 20px;
     text-transform: uppercase;
-    padding: 16px 8px;
+    padding: 8px;
     font-family: "gotham_boldregular", sans-serif;
     border: 0;
     color: #ffffff;
     display: block;
-    width: 98%;
+    width: 100%;
     white-space: normal;
 }
 
+.quote { margin: 16px 32px 16px 16px; }
 .quotemark {
     opacity: 0.5;
     font-size: 90px;
@@ -105,9 +109,8 @@ h2 {
 .winner img { width: 100%; max-width: 325px; height: auto; padding: 8px 0; }
 .winner span { position: relative; display: block; width: auto; background-color: #EC2C23; white-space: nowrap; padding: 4px 8px; margin-top: -70px; }
 
-html, body { height: 100%; }
-.swiper-container { width: 100%; }
-.swiper-slide { width: 100%; min-height: 100%; }
+.swiper-container { width: 100%; height: 100%; }
+.swiper-slide { width: 100%; }
 
 .pagination { position: absolute; z-index: 20; left: 10px; bottom: 10px; }
 .swiper-pagination-switch { display: inline-block; width: 8px; height: 8px; border-radius: 16px; background-color: #222222; margin-right: 5px; opacity: 0.8; border: 1px solid #ffffff; cursor: pointer; }

@@ -1,24 +1,10 @@
 jQuery(document).ready(function($){
-    $('form').submit(function(){
-        var landmarkID = $(this).parent().attr('data-landmark-id');
-        var postData = $(this).serialize();
-        $.ajax({
-            type: 'POST',
-            data: postData+'&lid='+landmarkID,
-            url: 'http://zinc.ie/apps/sea/_save.php',
-            /*
-            success: function(data){
-                console.log(data);
-                alert('Your email was successfully added');
-            },
-            error: function(){
-                console.log(data);
-                alert('There was an error adding your email');
-            }
-            */
-        });
-
+    $('#appsubmit').click(function(){
         window.open('http://zinc.ie/apps/sea/_save_ref.php', '_system');
+        return false;
+    });
+    $('#appredirect').click(function(){
+        window.open('http://studententrepreneur.ie/', '_system');
         return false;
     });
 });
