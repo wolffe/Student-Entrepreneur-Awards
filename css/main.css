@@ -26,8 +26,8 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
 
 .digit {
     font-family: "gotham_blackregular", sans-serif;
-    font-size: 256px;
-    line-height: 256px;
+    font-size: 180px;
+    line-height: 180px;
     text-transform: uppercase;
     color: #FFF100;
     margin: 16px;
@@ -62,8 +62,7 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
 .form input[type="submit"] {
     background-color: #EC2C23;
     font-family: inherit;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 10px;
     text-transform: uppercase;
     padding: 8px;
     font-family: "gotham_boldregular", sans-serif;
@@ -71,15 +70,13 @@ b, strong { font-family: "gotham_boldregular", sans-serif; }
     color: #ffffff;
     display: block;
     width: 100%;
+    height: auto;
     white-space: normal;
 }
 
 .quote { margin: 16px 32px 16px 16px; }
 .quotemark {
     opacity: 0.5;
-    font-size: 72px;
-    line-height: 72px;
-    vertical-align: middle;
 }
 
 h1 {
@@ -90,7 +87,7 @@ h1 {
     margin: 16px;
 }
 h2 {
-    font-family: "gotham_bookregular", sans-serif;
+    font-family: "gotham_boldregular", sans-serif;
     font-size: 14px;
     color: #FFFFFF;
     margin: 16px;
@@ -126,7 +123,6 @@ and (max-device-width : 1024px)  {
         background-color: #EC2C23;
         font-family: inherit;
         font-size: 24px;
-        line-height: 32px;
         text-transform: uppercase;
         padding: 16px;
         font-family: "gotham_boldregular", sans-serif;
@@ -134,7 +130,7 @@ and (max-device-width : 1024px)  {
         color: #ffffff;
         display: block;
         width: 100%;
+        height: auto;
         white-space: normal;
     }
-
 }

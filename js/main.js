@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
         return false;
     });
     $('#appredirect').click(function(){
-        window.open('http://studententrepreneur.ie/', '_system');
+        window.open('http://studententrepreneur.ie/about-the-awards/', '_system');
         return false;
     });
 });
